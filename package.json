@@ -22,9 +22,7 @@
     "scripts" : {
         "test" : "tape test/*.js"
     },
-    "dependencies" : {
-        "esprima": "git+https://github.com/ariya/esprima.git#harmony"
-    },
+    "bundledDependencies" : [ "esprima" ],
     "devDependencies" : {
         "tape" : "~1.0.4"
     },
